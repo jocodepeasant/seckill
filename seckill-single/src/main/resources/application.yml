@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: seckill-single
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 47.105.206.45:8848
+        username: nacos
+        password: fzb8004568933
+server:
+  port: 8050
